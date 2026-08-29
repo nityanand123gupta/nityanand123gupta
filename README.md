@@ -21,7 +21,7 @@
 ## GitHub stats
 
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=nityanand123gupta&show_icons=true&theme=tokyonight&hide_border=true" alt="Nityanand's GitHub stats" width="49%" />
+  <img src="./profile/stats.svg" alt="Nityanand's GitHub stats" width="49%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=nityanand123gupta&theme=tokyonight&hide_border=true" alt="Nityanand's GitHub streak" width="49%" />
 </p>
 

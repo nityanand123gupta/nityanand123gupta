@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./profile/banner.svg" alt="Nityanand Gupta — Machine Learning · Agentic AI · Full-Stack · B.Tech Computer Science, IIIT Hyderabad" width="100%" />
+  <img src="./profile/banner.svg?v=2" alt="Nityanand Gupta — Machine Learning · Agentic AI · Full-Stack · B.Tech Computer Science, IIIT Hyderabad" width="100%" />
 </p>
 
 <p align="center">

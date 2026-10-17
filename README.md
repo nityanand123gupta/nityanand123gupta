@@ -1,12 +1,13 @@
 <p align="center">
-  <img src="./profile/banner.svg" alt="Nityanand Gupta — Computer Vision &amp; Full-Stack Engineer · B.Tech Computer Science, IIIT Hyderabad" width="100%" />
+  <img src="./profile/banner.svg" alt="Nityanand Gupta — Machine Learning · Agentic AI · Full-Stack · B.Tech Computer Science, IIIT Hyderabad" width="100%" />
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/IIIT_Hyderabad-0D1117?style=for-the-badge&logo=googlescholar&logoColor=58A6FF&labelColor=0D1117" alt="IIIT Hyderabad" />
-  <img src="https://img.shields.io/badge/Computer_Vision-0D1117?style=for-the-badge&logo=opencv&logoColor=58A6FF&labelColor=0D1117" alt="Computer Vision" />
+  <img src="https://img.shields.io/badge/Machine_Learning-0D1117?style=for-the-badge&logo=pytorch&logoColor=58A6FF&labelColor=0D1117" alt="Machine Learning" />
+  <img src="https://img.shields.io/badge/Agentic_AI-0D1117?style=for-the-badge&logo=openaigym&logoColor=58A6FF&labelColor=0D1117" alt="Agentic AI" />
   <img src="https://img.shields.io/badge/Full_Stack-0D1117?style=for-the-badge&logo=nextdotjs&logoColor=58A6FF&labelColor=0D1117" alt="Full Stack" />
-  <img src="https://img.shields.io/badge/Open_Source-0D1117?style=for-the-badge&logo=github&logoColor=58A6FF&labelColor=0D1117" alt="Open Source" />
+  <img src="https://img.shields.io/badge/Systems-0D1117?style=for-the-badge&logo=linux&logoColor=58A6FF&labelColor=0D1117" alt="Systems" />
 </p>
 
 <p align="center">
@@ -19,18 +20,19 @@
 
 ## <img src="./profile/icons/profile.svg" height="23" /> Profile
 
-Computer Science at **IIIT Hyderabad**. I build **production computer-vision systems** and
-**full-stack products** end to end — from model pipeline and database schema through to
-packaged installers and deploy.
+Computer Science at **IIIT Hyderabad**, working across **machine learning**, **agentic AI**,
+**full-stack** and **systems**. I like building the whole thing — model pipeline, database
+schema, operator interface and deploy — rather than one slice of it.
 
-My day-to-day is **camera-only airspace security**: drone and bird detection from ordinary
-IP/PTZ cameras with **no radar, RF or acoustic sensors**. That constraint is the hard part,
-and it is where most of the engineering goes — pretrained UAV YOLO models, a ByteTrack-style
-tracker, flight-pattern confirmation that vetoes the classic bird false-alarms, and CLAHE
-weather preprocessing to pull faint targets out of fog, haze and snow-glare.
+Most of my work falls into three areas. **Agentic AI and applied ML**: multi-step LLM
+pipelines that plan their own analysis and write the code to run it, retrieval systems over
+real document corpora, and agent crews that reason against hard rule engines. **Full-stack
+products**: TypeScript and Postgres on Next.js 16, built end to end and shipped.
+**Detection and monitoring systems**: deep-learning detectors with multi-object tracking,
+motion-pattern verification and image preprocessing for degraded conditions, packaged to run
+fully offline.
 
-Alongside that I ship fixes upstream into widely-used open-source infrastructure, and build
-TypeScript/Postgres products on Next.js 16.
+Alongside that I ship fixes upstream into widely-used open-source infrastructure.
 
 ---
 
@@ -49,14 +51,6 @@ Fixes and features merged into open-source projects used in production worldwide
 
 ## <img src="./profile/icons/layers.svg" height="23" /> Selected work
 
-### <img src="./profile/icons/radar.svg" height="20" /> Airspace security & computer vision
-
-| System | Detail |
-|---|---|
-| **Zone Intelligence** <br/>`proprietary` | Fuses a camera fleet into **one air picture**. A single camera can only report a bearing — Zone Intelligence resolves the object seen by multiple cameras into a single track with position, heading and speed, then grades that track against the site's surveyed perimeter. |
-| **AirGuard** · **SkyShield** <br/>`proprietary` | Camera-only drone-vs-bird detection for border and perimeter sites — **no radar, RF or acoustic sensors**. Pretrained UAV YOLO with ByteTrack tracking, flight-pattern confirmation that vetoes the classic bird false-alarms, and CLAHE preprocessing for fog, haze and snow-glare. Operator dashboard, shipped as packaged Windows installers that run **fully offline**. |
-| **SiteGuard** <br/>`proprietary` | Ground-side site monitoring over ONVIF/RTSP camera fleets — detection and tracking of people, vehicles and animals, directional line-crossing counts, zone dwell and loitering alerts, and a camera wall that scales to the full fleet. **FastAPI + React.** |
-
 ### <img src="./profile/icons/neural.svg" height="20" /> Applied AI & agent systems
 
 | System | Detail |
@@ -73,9 +67,25 @@ Fixes and features merged into open-source projects used in production worldwide
 | **Buddyly** <br/>`live · buddyly.ai` | TypeScript product platform with **DigiLocker** identity verification. Shipped venue search, consent-flow and DigiLocker redirect fixes across a full QA cycle, and removed the row cap on bulk data export. |
 | **Relationship OS** `private` | TypeScript + PLpgSQL CRM. Delivered a UI, performance and reliability overhaul with Daily Lineup, an AI-budget fix, test fixtures and CI. |
 
+### <img src="./profile/icons/radar.svg" height="20" /> Detection & monitoring systems
+
+| System | Detail |
+|---|---|
+| **Zone Intelligence** <br/>`proprietary` | Fuses a camera fleet into **one air picture**. A single camera can only report a bearing — Zone Intelligence resolves the object seen by multiple cameras into a single track with position, heading and speed, then grades that track against the site's surveyed perimeter. |
+| **AirGuard** · **SkyShield** <br/>`proprietary` | Camera-only drone-vs-bird detection for border and perimeter sites — **no radar, RF or acoustic sensors**. Pretrained UAV detection models with multi-object tracking, flight-pattern confirmation that vetoes the classic bird false-alarms, and CLAHE preprocessing for fog, haze and snow-glare. Operator dashboard, shipped as packaged Windows installers that run **fully offline**. |
+| **SiteGuard** <br/>`proprietary` | Ground-side site monitoring over ONVIF/RTSP camera fleets — detection and tracking of people, vehicles and animals, directional line-crossing counts, zone dwell and loitering alerts, and a camera wall that scales to the full fleet. **FastAPI + React.** |
+
 ---
 
 ## <img src="./profile/icons/stack.svg" height="23" /> Engineering stack
+
+**Core areas**
+
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-0D1117?style=for-the-badge&logo=pytorch&logoColor=58A6FF&labelColor=0D1117)
+![Agentic AI](https://img.shields.io/badge/Agentic_AI-0D1117?style=for-the-badge&logo=langchain&logoColor=58A6FF&labelColor=0D1117)
+![Statistical Methods in AI](https://img.shields.io/badge/Statistical_Methods_in_AI-0D1117?style=for-the-badge&logo=scipy&logoColor=58A6FF&labelColor=0D1117)
+![Operating Systems](https://img.shields.io/badge/Operating_Systems-0D1117?style=for-the-badge&logo=linux&logoColor=58A6FF&labelColor=0D1117)
+![Networks](https://img.shields.io/badge/Networks-0D1117?style=for-the-badge&logo=cisco&logoColor=58A6FF&labelColor=0D1117)
 
 **Languages**
 
@@ -86,12 +96,15 @@ Fixes and features merged into open-source projects used in production worldwide
 ![SQL](https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=58A6FF&labelColor=0D1117)
 ![Go](https://img.shields.io/badge/Go-0D1117?style=for-the-badge&logo=go&logoColor=58A6FF&labelColor=0D1117)
 
-**ML & computer vision**
+**Machine learning & AI**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-0D1117?style=for-the-badge&logo=pytorch&logoColor=58A6FF&labelColor=0D1117)
-![Ultralytics](https://img.shields.io/badge/Ultralytics_YOLO-0D1117?style=for-the-badge&logo=ultralytics&logoColor=58A6FF&labelColor=0D1117)
-![OpenCV](https://img.shields.io/badge/OpenCV-0D1117?style=for-the-badge&logo=opencv&logoColor=58A6FF&labelColor=0D1117)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-0D1117?style=for-the-badge&logo=scikitlearn&logoColor=58A6FF&labelColor=0D1117)
+![pandas](https://img.shields.io/badge/pandas-0D1117?style=for-the-badge&logo=pandas&logoColor=58A6FF&labelColor=0D1117)
 ![NumPy](https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoColor=58A6FF&labelColor=0D1117)
+![FAISS](https://img.shields.io/badge/FAISS-0D1117?style=for-the-badge&logo=meta&logoColor=58A6FF&labelColor=0D1117)
+![CrewAI](https://img.shields.io/badge/CrewAI-0D1117?style=for-the-badge&logo=robotframework&logoColor=58A6FF&labelColor=0D1117)
+![OpenCV](https://img.shields.io/badge/OpenCV-0D1117?style=for-the-badge&logo=opencv&logoColor=58A6FF&labelColor=0D1117)
 ![Jupyter](https://img.shields.io/badge/Jupyter-0D1117?style=for-the-badge&logo=jupyter&logoColor=58A6FF&labelColor=0D1117)
 
 **Backend & data**
@@ -135,7 +148,7 @@ Fixes and features merged into open-source projects used in production worldwide
 ## <img src="./profile/icons/pin.svg" height="23" /> Featured repositories
 
 <p align="center">
-  <a href="https://github.com/nityanand123gupta/sky-watch-drone-zones"><img src="./profile/pin-sky-watch-drone-zones.svg" alt="sky-watch-drone-zones — computer vision" width="49%" /></a>
+  <a href="https://github.com/nityanand123gupta/sky-watch-drone-zones"><img src="./profile/pin-sky-watch-drone-zones.svg" alt="sky-watch-drone-zones — detection system" width="49%" /></a>
   <a href="https://github.com/nityanand123gupta/ai-sports-trade-analyzer"><img src="./profile/pin-ai-sports-trade-analyzer.svg" alt="ai-sports-trade-analyzer — multi-agent AI" width="49%" /></a>
 </p>
 <p align="center">

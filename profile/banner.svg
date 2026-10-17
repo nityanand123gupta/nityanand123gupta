@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 270" width="1000" height="270" role="img" aria-label="Nityanand Gupta - Computer Vision and Full-Stack Engineer, B.Tech Computer Science, IIIT Hyderabad">
-  <title>Nityanand Gupta — Computer Vision &amp; Full-Stack Engineer</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 270" width="1000" height="270" role="img" aria-label="Nityanand Gupta - Machine Learning, Agentic AI and Full-Stack Engineer, B.Tech Computer Science, IIIT Hyderabad">
+  <title>Nityanand Gupta — Machine Learning · Agentic AI · Full-Stack</title>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0D1117"/>
@@ -48,7 +48,7 @@
           font-size="45" font-weight="700" letter-spacing="1.5" fill="url(#nameGrad)">NITYANAND GUPTA</text>
 
     <text x="74" y="140" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
-          font-size="20.5" font-weight="600" letter-spacing="0.4" fill="#58A6FF">Computer Vision &amp; Full-Stack Engineer</text>
+          font-size="20.5" font-weight="600" letter-spacing="0.4" fill="#58A6FF">Machine Learning  ·  Agentic AI  ·  Full-Stack</text>
 
     <text x="74" y="170" font-family="Consolas, SFMono-Regular, Menlo, monospace"
           font-size="14.5" letter-spacing="0.6" fill="#8B949E">B.Tech Computer Science  ·  IIIT Hyderabad</text>
@@ -56,15 +56,18 @@
     <rect x="72" y="192" width="300" height="1.4" fill="url(#rule)"/>
 
     <!-- capability chips -->
-    <g font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#7D8590">
-      <rect x="72" y="210" width="134" height="26" rx="13" fill="#58A6FF" fill-opacity="0.08" stroke="#58A6FF" stroke-opacity="0.28"/>
-      <text x="139" y="227" text-anchor="middle" fill="#9FC4F7">drone detection</text>
+    <g font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="12.5">
+      <rect x="72" y="210" width="104" height="26" rx="13" fill="#58A6FF" fill-opacity="0.08" stroke="#58A6FF" stroke-opacity="0.28"/>
+      <text x="124" y="227" text-anchor="middle" fill="#9FC4F7">agentic AI</text>
 
-      <rect x="216" y="210" width="96" height="26" rx="13" fill="#58A6FF" fill-opacity="0.08" stroke="#58A6FF" stroke-opacity="0.28"/>
-      <text x="264" y="227" text-anchor="middle" fill="#9FC4F7">YOLO / CV</text>
+      <rect x="186" y="210" width="140" height="26" rx="13" fill="#58A6FF" fill-opacity="0.08" stroke="#58A6FF" stroke-opacity="0.28"/>
+      <text x="256" y="227" text-anchor="middle" fill="#9FC4F7">machine learning</text>
 
-      <rect x="322" y="210" width="104" height="26" rx="13" fill="#58A6FF" fill-opacity="0.08" stroke="#58A6FF" stroke-opacity="0.28"/>
-      <text x="374" y="227" text-anchor="middle" fill="#9FC4F7">open source</text>
+      <rect x="336" y="210" width="96" height="26" rx="13" fill="#58A6FF" fill-opacity="0.08" stroke="#58A6FF" stroke-opacity="0.28"/>
+      <text x="384" y="227" text-anchor="middle" fill="#9FC4F7">full-stack</text>
+
+      <rect x="442" y="210" width="88" height="26" rx="13" fill="#58A6FF" fill-opacity="0.08" stroke="#58A6FF" stroke-opacity="0.28"/>
+      <text x="486" y="227" text-anchor="middle" fill="#9FC4F7">systems</text>
     </g>
 
     <!-- radar -->

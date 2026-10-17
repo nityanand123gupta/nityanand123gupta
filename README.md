@@ -1,8 +1,9 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=680&lines=Nityanand+Gupta;Computer+vision+%26+full-stack+engineer;Production+drone+detection+systems;Open-source+contributor+%E2%80%94+28k%2B+stars+upstream;I+ship+systems%2C+not+demos" alt="Nityanand Gupta" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=680&lines=Nityanand+Gupta;Computer+Science+%40+IIIT+Hyderabad;Computer+vision+%26+full-stack+engineer;Production+drone+detection+systems;Open-source+contributor+%E2%80%94+28k%2B+stars+upstream" alt="Nityanand Gupta" />
 </h1>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/IIIT_Hyderabad-0D1117?style=for-the-badge&logo=googlescholar&logoColor=58A6FF&labelColor=0D1117" alt="IIIT Hyderabad" />
   <img src="https://img.shields.io/badge/Computer_Vision-0D1117?style=for-the-badge&logo=opencv&logoColor=58A6FF&labelColor=0D1117" alt="Computer Vision" />
   <img src="https://img.shields.io/badge/Full_Stack-0D1117?style=for-the-badge&logo=nextdotjs&logoColor=58A6FF&labelColor=0D1117" alt="Full Stack" />
   <img src="https://img.shields.io/badge/Open_Source-0D1117?style=for-the-badge&logo=github&logoColor=58A6FF&labelColor=0D1117" alt="Open Source" />
@@ -19,15 +20,15 @@
 
 ## <img src="./profile/icons/profile.svg" height="23" /> Profile
 
-I build **production computer-vision systems** and **full-stack products** end to end —
-from model pipeline and database schema through to packaged installers and deploy.
+Computer Science at **IIIT Hyderabad**. I build **production computer-vision systems** and
+**full-stack products** end to end — from model pipeline and database schema through to
+packaged installers and deploy.
 
-My day-to-day is camera-only airspace security at **[Rungta Ventures](https://github.com/rungtaventures1)**:
-drone and bird detection from ordinary IP/PTZ cameras with **no radar, RF or acoustic sensors**.
-That constraint is the hard part, and it is where most of the engineering goes — pretrained UAV
-YOLO models, a ByteTrack-style tracker, flight-pattern confirmation that vetoes the classic
-bird false-alarms, and CLAHE weather preprocessing to pull faint targets out of fog, haze and
-snow-glare.
+My day-to-day is **camera-only airspace security**: drone and bird detection from ordinary
+IP/PTZ cameras with **no radar, RF or acoustic sensors**. That constraint is the hard part,
+and it is where most of the engineering goes — pretrained UAV YOLO models, a ByteTrack-style
+tracker, flight-pattern confirmation that vetoes the classic bird false-alarms, and CLAHE
+weather preprocessing to pull faint targets out of fog, haze and snow-glare.
 
 Alongside that I ship fixes upstream into widely-used open-source infrastructure, and build
 TypeScript/Postgres products on Next.js 16.
@@ -54,7 +55,7 @@ Fixes and features merged into open-source projects used in production worldwide
 
 | System | Detail |
 |---|---|
-| **RV AirGuard** · **RV SkyShield** <br/>`proprietary — Rungta Ventures` | Production multi-site airspace monitoring with Zone Intelligence. Camera-only detection stack, packaged Windows installers, operator dashboard. **~630k LOC Python + 338k LOC JavaScript** across the two systems. |
+| **AirGuard** · **SkyShield** <br/>`proprietary` | Production multi-site airspace monitoring with Zone Intelligence. Camera-only detection stack, packaged Windows installers, operator dashboard. **~630k LOC Python + 338k LOC JavaScript** across the two systems. |
 | **[sky-watch-drone-zones](https://github.com/nityanand123gupta/sky-watch-drone-zones)** | Border and perimeter drone-threat monitor. Restricted-airspace ROI zones, Critical/Warning/Normal threat grading, border line-crossing and loitering alerts, acknowledgeable alert feed, event log with CSV export. **FastAPI + React.** |
 | **[sky-watch-drone-monitor](https://github.com/nityanand123gupta/sky-watch-drone-monitor)** | Multi-camera deployment of the same pipeline — live annotated RTSP streams, per-camera drone and bird counts, activity charts. |
 
@@ -69,8 +70,8 @@ Fixes and features merged into open-source projects used in production worldwide
 | System | Detail |
 |---|---|
 | **StudyMint** `private` | Study-support platform for university students — Next.js 16, Drizzle ORM, Clerk auth, Postgres. Built end to end from schema to deploy. |
-| **Buddyly** `private` | TypeScript product platform. Shipped venue search, consent-flow and DigiLocker redirect fixes (**+3,012 / −139** in one QA cycle) and uncapped bulk data export. |
-| **Relationship OS** `private` | TypeScript + PLpgSQL CRM. Delivered a UI, performance and reliability overhaul with Daily Lineup, AI-budget fix, test fixtures and CI — **+5,358 / −432**. |
+| **Buddyly** `private` | TypeScript product platform. Shipped venue search, consent-flow and DigiLocker redirect fixes across a full QA cycle, and removed the row cap on bulk data export. |
+| **Relationship OS** `private` | TypeScript + PLpgSQL CRM. Delivered a UI, performance and reliability overhaul with Daily Lineup, an AI-budget fix, test fixtures and CI. |
 
 ---
 
@@ -159,6 +160,5 @@ Fixes and features merged into open-source projects used in production worldwide
 ## <img src="./profile/icons/mail.svg" height="23" /> Contact
 
 <p align="center">
-  <a href="mailto:hr@rungtaventures.ai"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=58A6FF&labelColor=0D1117" alt="Email" /></a>
   <a href="https://github.com/nityanand123gupta"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=58A6FF&labelColor=0D1117" alt="GitHub" /></a>
 </p>

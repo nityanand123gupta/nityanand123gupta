@@ -63,14 +63,14 @@ Fixes and features merged into open-source projects used in production worldwide
 |---|---|
 | **Multi-agent analytics pipeline** <br/>`proprietary` | Eight-stage LLM pipeline over enterprise spreadsheets: ingests workbooks, infers schema and cross-dataset relationships, proposes candidate analyses, plans an execution strategy, then **generates and runs the Python analysis code** — a full question-to-result loop with no analyst in the middle. |
 | **Financial RAG system** <br/>`proprietary` | Retrieval-augmented analysis over financial reports. PDF extraction and chunking with metadata preserved, **FAISS** semantic search over sentence-transformer embeddings, and a router that reaches for external industry benchmarks only when the local corpus can't answer. Every claim cites its source down to the PDF page. |
-| **[ai-sports-trade-analyzer](https://github.com/nityanand123gupta/ai-sports-trade-analyzer)** <br/>`public` | Multi-agent NBA trade analyzer — a Scout / Quant / Cap / GM agent crew reasoning over a player-valuation model and a **CBA salary-cap rules engine** to produce a graded recommendation. CrewAI + Gemini/Claude, with a full architecture write-up in `DESIGN.pdf`. |
+| **AI Sports Trade Analyzer** <br/>`public` | Multi-agent NBA trade analyzer — a Scout / Quant / Cap / GM agent crew reasoning over a player-valuation model and a **CBA salary-cap rules engine** to produce a graded recommendation. CrewAI + Gemini/Claude, with a full architecture write-up in `DESIGN.pdf`. |
 
 ### <img src="./profile/icons/cube.svg" height="20" /> Product engineering
 
 | System | Detail |
 |---|---|
 | **StudyMint** `private` | Study-support platform for university students — Next.js 16, Drizzle ORM, Clerk auth, Postgres. Built end to end from schema to deploy. |
-| **[Buddyly](https://buddyly.ai)** <br/><sub>buddyly.ai · live</sub> | TypeScript product platform with **DigiLocker** identity verification. Shipped venue search, consent-flow and DigiLocker redirect fixes across a full QA cycle, and removed the row cap on bulk data export. |
+| **Buddyly** <br/>`live · buddyly.ai` | TypeScript product platform with **DigiLocker** identity verification. Shipped venue search, consent-flow and DigiLocker redirect fixes across a full QA cycle, and removed the row cap on bulk data export. |
 | **Relationship OS** `private` | TypeScript + PLpgSQL CRM. Delivered a UI, performance and reliability overhaul with Daily Lineup, an AI-budget fix, test fixtures and CI. |
 
 ---

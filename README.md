@@ -155,10 +155,3 @@ Fixes and features merged into open-source projects used in production worldwide
   <img alt="Contribution graph animation" src="https://raw.githubusercontent.com/nityanand123gupta/nityanand123gupta/output/github-contribution-grid-snake.svg" />
 </picture>
 
----
-
-## <img src="./profile/icons/mail.svg" height="23" /> Contact
-
-<p align="center">
-  <a href="https://github.com/nityanand123gupta"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=58A6FF&labelColor=0D1117" alt="GitHub" /></a>
-</p>

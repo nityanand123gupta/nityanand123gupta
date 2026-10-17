@@ -10,7 +10,6 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/followers/nityanand123gupta?style=flat-square&logo=github&label=Followers&labelColor=0D1117&color=58A6FF" alt="Followers" />
   <img src="https://img.shields.io/badge/Upstream_merged_PRs-4-58A6FF?style=flat-square&labelColor=0D1117" alt="Upstream merged PRs" />
   <img src="https://img.shields.io/badge/Upstream_stars_reached-28k%2B-58A6FF?style=flat-square&labelColor=0D1117" alt="Upstream stars reached" />
   <img src="https://img.shields.io/badge/Hyderabad-IN-58A6FF?style=flat-square&labelColor=0D1117" alt="Hyderabad, India" />
@@ -55,9 +54,9 @@ Fixes and features merged into open-source projects used in production worldwide
 
 | System | Detail |
 |---|---|
-| **AirGuard** · **SkyShield** <br/>`proprietary` | Production multi-site airspace monitoring with Zone Intelligence. Camera-only detection stack, packaged Windows installers, operator dashboard. **~630k LOC Python + 338k LOC JavaScript** across the two systems. |
-| **[sky-watch-drone-zones](https://github.com/nityanand123gupta/sky-watch-drone-zones)** | Border and perimeter drone-threat monitor. Restricted-airspace ROI zones, Critical/Warning/Normal threat grading, border line-crossing and loitering alerts, acknowledgeable alert feed, event log with CSV export. **FastAPI + React.** |
-| **[sky-watch-drone-monitor](https://github.com/nityanand123gupta/sky-watch-drone-monitor)** | Multi-camera deployment of the same pipeline — live annotated RTSP streams, per-camera drone and bird counts, activity charts. |
+| **Zone Intelligence** <br/>`proprietary` | Fuses a camera fleet into **one air picture**. A single camera can only report a bearing — Zone Intelligence resolves the object seen by multiple cameras into a single track with position, heading and speed, then grades that track against the site's surveyed perimeter. |
+| **AirGuard** · **SkyShield** <br/>`proprietary` | Camera-only drone-vs-bird detection for border and perimeter sites — **no radar, RF or acoustic sensors**. Pretrained UAV YOLO with ByteTrack tracking, flight-pattern confirmation that vetoes the classic bird false-alarms, and CLAHE preprocessing for fog, haze and snow-glare. Operator dashboard, shipped as packaged Windows installers that run **fully offline**. |
+| **SiteGuard** <br/>`proprietary` | Ground-side site monitoring over ONVIF/RTSP camera fleets — detection and tracking of people, vehicles and animals, directional line-crossing counts, zone dwell and loitering alerts, and a camera wall that scales to the full fleet. **FastAPI + React.** |
 
 ### <img src="./profile/icons/neural.svg" height="20" /> Applied AI & agent systems
 

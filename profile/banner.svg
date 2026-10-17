@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 270" width="1000" height="270" role="img" aria-label="Nityanand Gupta - Computer Vision and Full-Stack Engineer, B.Tech Computer Science, IIIT Hyderabad">
+  <title>Nityanand Gupta — Computer Vision &amp; Full-Stack Engineer</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="55%" stop-color="#11161F"/>
+      <stop offset="100%" stop-color="#0B1b2E"/>
+    </linearGradient>
+
+    <linearGradient id="sweepGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#58A6FF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#A9C7F5"/>
+    </linearGradient>
+
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" fill="none" stroke="#58A6FF" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <clipPath id="card"><rect width="1000" height="270" rx="16"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1000" height="270" fill="url(#bg)"/>
+    <rect width="1000" height="270" fill="url(#grid)"/>
+    <circle cx="815" cy="135" r="190" fill="url(#glow)"/>
+
+    <!-- accent bar -->
+    <rect x="48" y="62" width="3" height="104" rx="1.5" fill="#58A6FF"/>
+
+    <!-- wordmark -->
+    <text x="72" y="104" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+          font-size="45" font-weight="700" letter-spacing="1.5" fill="url(#nameGrad)">NITYANAND GUPTA</text>
+
+    <text x="74" y="140" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+          font-size="20.5" font-weight="600" letter-spacing="0.4" fill="#58A6FF">Computer Vision &amp; Full-Stack Engineer</text>
+
+    <text x="74" y="170" font-family="Consolas, SFMono-Regular, Menlo, monospace"
+          font-size="14.5" letter-spacing="0.6" fill="#8B949E">B.Tech Computer Science  ·  IIIT Hyderabad</text>
+
+    <rect x="72" y="192" width="300" height="1.4" fill="url(#rule)"/>
+
+    <!-- capability chips -->
+    <g font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#7D8590">
+      <rect x="72" y="210" width="134" height="26" rx="13" fill="#58A6FF" fill-opacity="0.08" stroke="#58A6FF" stroke-opacity="0.28"/>
+      <text x="139" y="227" text-anchor="middle" fill="#9FC4F7">drone detection</text>
+
+      <rect x="216" y="210" width="96" height="26" rx="13" fill="#58A6FF" fill-opacity="0.08" stroke="#58A6FF" stroke-opacity="0.28"/>
+      <text x="264" y="227" text-anchor="middle" fill="#9FC4F7">YOLO / CV</text>
+
+      <rect x="322" y="210" width="104" height="26" rx="13" fill="#58A6FF" fill-opacity="0.08" stroke="#58A6FF" stroke-opacity="0.28"/>
+      <text x="374" y="227" text-anchor="middle" fill="#9FC4F7">open source</text>
+    </g>
+
+    <!-- radar -->
+    <g transform="translate(815,135)">
+      <circle r="100" fill="none" stroke="#58A6FF" stroke-opacity="0.16" stroke-width="1"/>
+      <circle r="70"  fill="none" stroke="#58A6FF" stroke-opacity="0.20" stroke-width="1"/>
+      <circle r="40"  fill="none" stroke="#58A6FF" stroke-opacity="0.26" stroke-width="1"/>
+      <path d="M-104 0H104M0 -104V104" stroke="#58A6FF" stroke-opacity="0.13" stroke-width="1"/>
+
+      <circle r="46" fill="none" stroke="#58A6FF" stroke-width="1.2" stroke-opacity="0.5">
+        <animate attributeName="r" values="12;104" dur="3.2s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.55;0" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+
+      <g>
+        <path d="M0 0 L100 0 A100 100 0 0 0 50 -86.6 Z" fill="url(#sweepGrad)"/>
+        <path d="M0 0 L100 0" stroke="#58A6FF" stroke-width="1.6" stroke-opacity="0.75"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4.6s" repeatCount="indefinite"/>
+      </g>
+
+      <circle cx="54" cy="-38" r="3.4" fill="#58A6FF">
+        <animate attributeName="opacity" values="0;1;1;0" dur="4.6s" begin="0.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="-46" cy="52" r="3" fill="#58A6FF">
+        <animate attributeName="opacity" values="0;1;1;0" dur="4.6s" begin="2.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="26" cy="74" r="2.6" fill="#7EE787">
+        <animate attributeName="opacity" values="0;1;1;0" dur="4.6s" begin="3.6s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle r="4" fill="#58A6FF"/>
+    </g>
+
+    <rect x="0" y="266" width="1000" height="4" fill="url(#rule)"/>
+  </g>
+</svg>

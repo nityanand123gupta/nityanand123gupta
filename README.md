@@ -1,6 +1,6 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=680&lines=Nityanand+Gupta;Computer+Science+%40+IIIT+Hyderabad;Computer+vision+%26+full-stack+engineer;Production+drone+detection+systems;Open-source+contributor+%E2%80%94+28k%2B+stars+upstream" alt="Nityanand Gupta" />
-</h1>
+<p align="center">
+  <img src="./profile/banner.svg" alt="Nityanand Gupta — Computer Vision &amp; Full-Stack Engineer · B.Tech Computer Science, IIIT Hyderabad" width="100%" />
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/IIIT_Hyderabad-0D1117?style=for-the-badge&logo=googlescholar&logoColor=58A6FF&labelColor=0D1117" alt="IIIT Hyderabad" />
@@ -133,11 +133,11 @@ Fixes and features merged into open-source projects used in production worldwide
 ## <img src="./profile/icons/pin.svg" height="23" /> Featured repositories
 
 <p align="center">
-  <a href="https://github.com/nityanand123gupta/sky-watch-drone-zones"><img src="./profile/pin-sky-watch-drone-zones.svg" alt="sky-watch-drone-zones" width="49%" /></a>
-  <a href="https://github.com/nityanand123gupta/ai-sports-trade-analyzer"><img src="./profile/pin-ai-sports-trade-analyzer.svg" alt="ai-sports-trade-analyzer" width="49%" /></a>
+  <a href="https://github.com/nityanand123gupta/sky-watch-drone-zones"><img src="./profile/pin-sky-watch-drone-zones.svg" alt="sky-watch-drone-zones — computer vision" width="49%" /></a>
+  <a href="https://github.com/nityanand123gupta/ai-sports-trade-analyzer"><img src="./profile/pin-ai-sports-trade-analyzer.svg" alt="ai-sports-trade-analyzer — multi-agent AI" width="49%" /></a>
 </p>
 <p align="center">
-  <a href="https://github.com/nityanand123gupta/sky-watch-drone-monitor"><img src="./profile/pin-sky-watch-drone-monitor.svg" alt="sky-watch-drone-monitor" width="49%" /></a>
+  <a href="https://github.com/nityanand123gupta/felicity-event-management"><img src="./profile/pin-felicity-event-management.svg" alt="felicity-event-management — full-stack platform" width="49%" /></a>
 </p>
 
 ---

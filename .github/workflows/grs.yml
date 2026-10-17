@@ -48,12 +48,12 @@ jobs:
           path: profile/pin-ai-sports-trade-analyzer.svg
           token: ${{ secrets.PAT_TOKEN }}
 
-      - name: Generate repo card - sky-watch-drone-monitor
+      - name: Generate repo card - felicity-event-management
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=${{ github.repository_owner }}&repo=sky-watch-drone-monitor&theme=tokyonight&hide_border=true&show_owner=false
-          path: profile/pin-sky-watch-drone-monitor.svg
+          options: username=${{ github.repository_owner }}&repo=felicity-event-management&theme=tokyonight&hide_border=true&show_owner=false
+          path: profile/pin-felicity-event-management.svg
           token: ${{ secrets.PAT_TOKEN }}
 
       - name: Commit cards

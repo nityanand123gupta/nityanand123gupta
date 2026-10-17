@@ -43,7 +43,6 @@ Fixes and features merged into open-source projects used in production worldwide
 |---|---:|---|
 | **[django-oauth/django-oauth-toolkit](https://github.com/django-oauth/django-oauth-toolkit)** <br/><sub>OAuth2 provider for Django</sub> | 3.3k | Brought authorization **error** redirects into **RFC 9207** compliance by emitting the `iss` issuer identifier on the failure path, not just on success — so clients in multi-provider deployments can attribute which server rejected them. <sub>[#1847](https://github.com/django-oauth/django-oauth-toolkit/pull/1847)</sub> |
 | **[evilmartians/lefthook](https://github.com/evilmartians/lefthook)** <br/><sub>Git hooks manager</sub> | 8.9k | Made `lefthook run` **fail loudly** when `--job` or `--command` matches nothing, replacing a silent no-op that let mistyped filters pass as a green run. <sub>[#1512](https://github.com/evilmartians/lefthook/pull/1512)</sub> |
-| **[elementary/granite](https://github.com/elementary/granite)** <br/><sub>GTK widget library for elementary OS</sub> | 331 | Extended the `HeaderLabel` widget with a **`justify` property**, giving every downstream GTK application control over header text alignment. <sub>[#1009](https://github.com/elementary/granite/pull/1009)</sub> |
 | **[faker-js/faker](https://github.com/faker-js/faker)** <br/><sub>Fake-data generation for JS/TS</sub> | 15.5k | Closed an **API contract gap** in `weightedArrayElement` — documented the error it throws, so consumers handle the failure path instead of discovering it at runtime. <sub>[#4016](https://github.com/faker-js/faker/pull/4016)</sub> |
 
 ---
@@ -69,7 +68,7 @@ Fixes and features merged into open-source projects used in production worldwide
 | System | Detail |
 |---|---|
 | **StudyMint** `private` | Study-support platform for university students — Next.js 16, Drizzle ORM, Clerk auth, Postgres. Built end to end from schema to deploy. |
-| **Buddyly** `private` | TypeScript product platform. Shipped venue search, consent-flow and DigiLocker redirect fixes across a full QA cycle, and removed the row cap on bulk data export. |
+| **[Buddyly](https://buddyly.ai)** <br/><sub>buddyly.ai · live</sub> | TypeScript product platform with **DigiLocker** identity verification. Shipped venue search, consent-flow and DigiLocker redirect fixes across a full QA cycle, and removed the row cap on bulk data export. |
 | **Relationship OS** `private` | TypeScript + PLpgSQL CRM. Delivered a UI, performance and reliability overhaul with Daily Lineup, an AI-budget fix, test fixtures and CI. |
 
 ---
@@ -127,10 +126,6 @@ Fixes and features merged into open-source projects used in production worldwide
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=nityanand123gupta&theme=tokyonight&hide_border=true" alt="Contribution streak" width="60%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nityanand123gupta&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20activity" alt="Contribution activity graph" width="98%" />
 </p>
 
 ---
